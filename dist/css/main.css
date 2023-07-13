@@ -19,7 +19,12 @@ body {
 }
 body .flex-container {
   background-color: #247ba0;
+  padding: 30px;
   border-radius: 5px;
+}
+body .flex-container h1 {
+  margin-bottom: 15px;
+  text-align: center;
 }
 body .flex-container button,
 body .flex-container input {
@@ -30,7 +35,7 @@ body .flex-container input {
   border: none;
   margin-bottom: 10px;
 }
-body .flex-container button {
+body .flex-container .add-btn {
   color: #ffffff;
   background-color: #f25f5c;
   cursor: pointer;
@@ -41,8 +46,10 @@ body .list {
 }
 body .list li {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 body .list .completed {
+  color: #50514f;
   text-decoration: line-through;
-}/*# sourceMappingURL=main.css.map */
+}

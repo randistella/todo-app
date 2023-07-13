@@ -25,7 +25,13 @@ body {
 
   .flex-container {
     background-color: $cerulean;
+    padding: 30px;
     border-radius: 5px;
+
+    h1 {
+      margin-bottom: 15px;
+      text-align: center;
+    }
 
     button,
     input {
@@ -37,7 +43,7 @@ body {
       margin-bottom: 10px;
     }
 
-    button {
+    .add-btn {
       color: #ffffff;
       background-color: $bittersweet;
       cursor: pointer;
@@ -50,11 +56,12 @@ body {
 
     li {
       display: flex;
+      align-items: center;
       justify-content: space-between;
-      // margin: 20px 0;
     }
 
     .completed {
+      color: $davys-gray;
       text-decoration: line-through;
     }
   }
