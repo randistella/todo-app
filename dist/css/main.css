@@ -17,13 +17,12 @@ body {
   background: url("/dist/bg.jpg") no-repeat center center/cover;
   color: #fff;
 }
-
-.flex-container {
+body .flex-container {
   background-color: #247ba0;
   border-radius: 5px;
 }
-.flex-container button,
-.flex-container input {
+body .flex-container button,
+body .flex-container input {
   font-family: inherit;
   padding: 10px 30px;
   font-size: 15px;
@@ -31,21 +30,19 @@ body {
   border: none;
   margin-bottom: 10px;
 }
-.flex-container button {
+body .flex-container button {
   color: #ffffff;
   background-color: #f25f5c;
   cursor: pointer;
 }
-
-.list {
+body .list {
   list-style: none;
   font-size: 15px;
 }
-.list li {
+body .list li {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
 }
-.list .completed {
+body .list .completed {
   text-decoration: line-through;
 }/*# sourceMappingURL=main.css.map */
